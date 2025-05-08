@@ -1,0 +1,71 @@
+.ombre{ text-shadow: 3px 2px 2px #777;
+}
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  animation: fadeIn 2s ease;
+}
+h1, h2, h3, h4 {
+  text-align: center;
+  color: #4f9dff;
+  text-shadow: 3px 2px 2px #777;
+}
+p {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+header {
+  background: linear-gradient(135deg, #4f9dff, #3c82f6);
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 0 0 50px 50px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+blockquote {
+  background-color: #eef6ff;
+  border-left: 5px solid #4f9dff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
+  border-radius: 15px;
+}
+q {
+  font-style: italic;
+  color: #555;
+  quotes: "« " " »";
+}
+q::before {
+  content: open-quote;
+}
+q::after {
+  content: close-quote;
+}
+
+acronym {
+  border-bottom: 1px dotted #555;
+  cursor: help;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #4f9dff;
+  color: white;
+  margin-top: 40px;
+  border-radius: 50px 50px 0 0;
+}
+
+
+
+
